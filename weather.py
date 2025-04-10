@@ -1,6 +1,6 @@
 import  requests
 
-API_KEY = "6e9ac994f4847707ae8e96f675fd2eec"
+API_KEY = "YOUR API KEY HERE"
 
 class City:
     def __init__(self, name, units="metric"):
