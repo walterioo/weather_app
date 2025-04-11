@@ -1,7 +1,20 @@
-# Weather App
+ Weather App
 
-Small weather app I created in python which prompts the user for a city, if it's found it will display the current weather conditions
+A small weather app I created in Python that prompts the user for a city. If the city is found, it will display the current weather conditions.
 
-It uses the OpenWeather API, an account and api key is needed
+It uses the OpenWeather API. An account and API key are required.
 
-Requires requests and python-dotenv modules
+## Instructions
+
+Install the `requests` module:
+```bash
+pip install requests
+```
+Install `python-dotenv` module:
+```bash
+pip install python-dotenv
+```
+Create an .env file:
+```bash
+OPENWEATHER_API_KEY = "YOUR_API_KEY"
+```
